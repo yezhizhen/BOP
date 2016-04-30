@@ -10,7 +10,7 @@ namespace MAG_LINKER
 {
     static class QuerySender
     {
-        public static Entity MakeRequest(string requestUrl)
+        public static Response MakeRequest(string requestUrl)
         {
             try
             {
@@ -22,10 +22,10 @@ namespace MAG_LINKER
                         "Server error (HTTP {0}: {1}).",
                         response.StatusCode,
                         response.StatusDescription));
-                    DataContractJsonSerializer jsonSerializer = new DataContractJsonSerializer(typeof(Entity));
+                    DataContractJsonSerializer jsonSerializer = new DataContractJsonSerializer(typeof(Response));
                     object objResponse = jsonSerializer.ReadObject(response.GetResponseStream());
-                    Entity jsonResponse
-                    = objResponse as Entity;
+                    Response jsonResponse
+                    = objResponse as Response;
                     return jsonResponse;
                 }
             }
