@@ -10,6 +10,7 @@ namespace MAG_LINKER
     {
         static void Main(string[] args)
         {
+            QuerySender sender = new QuerySender();
 
         }
     }

@@ -17,3 +17,7 @@ https://dev.projectoxford.ai/docs/services/56332331778daf02acc0a50b/operations/5
 
 4. HTTP JSON response
 https://msdn.microsoft.com/en-us/library/hh674188.aspx
+
+
+5. Reduce JSON object size
+http://www.newtonsoft.com/json/help/html/reducingserializedjsonsize.htm
