@@ -25,6 +25,12 @@ namespace MAG_LINKER
         public long Id { get; set; }
         [DataMember(Name = "AA")]
         public author[] authors { get; set; }
+        [DataMember(Name = "F")]
+        public field[] fields { get; set; }
+        [DataMember(Name = "C")]
+        public conference[] conferences { get; set; }
+        [DataMember(Name ="J")]
+        public journal[] journals { get; set; }
     }
 
     [DataContract]
@@ -35,5 +41,26 @@ namespace MAG_LINKER
         [DataMember(Name = "AuId")]
         public long authorid { get; set; }
 
+    }
+
+    [DataContract]
+    public class field
+    {
+        [DataMember(Name = "FId")]
+        public long field_id { get; set; }
+
+    }
+
+    [DataContract]
+    public class journal
+    {
+        [DataMember(Name = "Id")]
+        public long jid { get; set; }
+    }
+    [DataContract]
+    public class conference
+    {
+        [DataMember(Name = "Id")]
+        long cid;
     }
 }
