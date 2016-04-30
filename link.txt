@@ -1,0 +1,19 @@
+1. Question
+
+https://studentclub.msra.cn/bop2016/topic/
+
+
+2. API
+
+https://www.microsoft.com/cognitive-services/en-us/academic-knowledge-api/documentation/overview
+
+https://msdn.microsoft.com/en-us/library/mt631427.aspx
+
+
+3. API Test
+
+https://dev.projectoxford.ai/docs/services/56332331778daf02acc0a50b/operations/56332331778daf06340c9666/console
+
+
+4. HTTP JSON response
+https://msdn.microsoft.com/en-us/library/hh674188.aspx
