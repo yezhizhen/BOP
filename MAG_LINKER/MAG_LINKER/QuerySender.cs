@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Serialization.Json;
+using System.Net;
+
 namespace MAG_LINKER
 {
-    class QuerySender
+    static class QuerySender
     {
         public static Response MakeRequest(string requestUrl)
         {

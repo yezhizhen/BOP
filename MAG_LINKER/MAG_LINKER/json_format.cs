@@ -13,7 +13,8 @@ namespace MAG_LINKER
     [DataContract]
     public class Response
     {
-        
+        [DataMember(Name = "expr")]
+        public string expr { get; set; }
     }
 
 }
