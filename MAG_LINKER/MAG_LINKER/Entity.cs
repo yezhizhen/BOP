@@ -11,10 +11,12 @@ namespace MAG_LINKER
     //For unwanted field, don't include DataMember.
     //http://www.newtonsoft.com/json/help/html/reducingserializedjsonsize.htm
     [DataContract]
-    public class Response
+    public class Entity
     {
         [DataMember(Name = "expr")]
         public string expr { get; set; }
+
+
     }
 
 }
