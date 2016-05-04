@@ -21,3 +21,7 @@ https://msdn.microsoft.com/en-us/library/hh674188.aspx
 
 5. Reduce JSON object size
 http://www.newtonsoft.com/json/help/html/reducingserializedjsonsize.htm
+
+6. Azure
+
+http://www.jikexueyuan.com/course/2720.html
