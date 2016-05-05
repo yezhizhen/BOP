@@ -25,3 +25,27 @@ http://www.newtonsoft.com/json/help/html/reducingserializedjsonsize.htm
 6. Azure
 
 http://www.jikexueyuan.com/course/2720.html
+
+
+7. Submission
+
+
+http://{your_prefix}.chinacloudapp.cn/{your_path}?id1={id1}&id2={id2}
+
+例如：
+
+http://test.chinacloudapp.cn/version1?id1=123&id2=456
+
+ 
+
+在响应以上Get请求的HTTP body中需要包含且只包含一个JSON格式的数组[path1, path2, path3 ... pathN]，其中每一个path也是一个id的数组。例如：
+
+[[123,456], [123,2,456], [123,3,456], [123,4,5,456]]
+
+ 
+
+关于提交：
+
+你需要向评测系统提交URL的路径部分：http://{your_prefix}.chinacloudapp.cn/{your_path}，
+
+评测系统会自动添加query部分id1={id1}&id2={id2} ，并发送请求，然后通过响应的时间与内容进行评分。
